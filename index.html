@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<!-- meta data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="pushpo">
+    <meta name="description" content="blog site">
+    <meta name="keywords" content="Web development,web design">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="pushpo">
+    <link rel="icon" href="images/#">
+    <title>javascript</title>
+    <!-- font link -->
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+
+    <h1>javaScript</h1>
+    <hr>
+
+    <!-- text change -->
+    
+    <h2>click the button to change the text</h2>
+    <button type="button" class="btn btn-dark" onclick="textChange()">click me</button>
+    <h3 id="t_h3">lorem</h3>
+    <hr>
+
+
+    <!-- show the date -->
+
+    <h2>click the button to show the date</h2>
+    <button type="button" class="btn btn-dark" onclick="showDate()">show date</button>
+    <h3 id="sd">show date</h3>
+   
+
+    <hr>
+
+
+    <!--on/off the bulb -->
+    
+    <h2>click the button to on/off the bulb</h2>
+    <button type="button" class="btn btn-success" onclick="bulbOn()">Bulb on</button>
+    <button type="button" class="btn btn-danger" onclick="bulbOff()">Bulb off</button>
+    <img id="img" src="images/bulboff.gif" alt="">
+    
+
+    <hr>
+
+     <!-- imoji -->
+
+    <h2>click the button to change the imoji</h2>
+    <button type="button" class="btn btn-success" onclick="smileGif()">smile</button>
+    <button type="button" class="btn btn-danger" onclick="sadGif()">Sad</button>
+    <img id="imj" src="images/sad.gif" alt="" >
+
+    <hr>
+
+ 
+    <!--double click -->
+    
+    <h2>click the button to change the text on double click</h2>
+    <button type="button" class="btn btn-info" ondblclick="textChange2()">text change</button>
+    <h3 id="tx_h3">lorem</h3>
+  
+    <hr>
+
+    <!-- mouse over -->
+   
+    <h2>click the button to change the text mouse over</h2>
+    <button type="button" class="btn btn-danger" onmouseover="textChange3()">text change</button>
+    <h3 id="m_o">lorem</h3>
+    
+
+    <hr>
+    <!-- mouse out -->
+
+    <h2>click the button to change the text on mouse out</h2>
+    <button type="button" class="btn btn-success" onmouseout="textChange4()">text change</button>
+    <h3 id="m_out">lorem</h3>
+
+
+    <hr>
+
+    <!-- mouse enter -->
+
+    <h2>click the button to change the text on mouse enter</h2>
+    <button type="button" class="btn btn-primary" onmouseenter="textChange5()">text change</button>
+    <h3 id="m_enter">lorem</h3>
+
+
+    <hr>
+    <!-- boder -->
+
+    <h2>click the button to add a boder to the text</h2>
+    <button type="button" class="btn btn-secondary" onclick="showBorder()">show border</button>
+    <h3 id="sb">Lorem ipsum dolor sit amet.</h3>
+
+
+    <hr>
+
+    <!-- show/hide -->
+
+    <h2>click the button to show/hide the text</h2>
+    <button type="button" class="btn btn-success" onclick="showText()">show text</button>
+    <button type="button" class="btn btn-danger"onclick="hideText()">hide text</button>
+    <h3 id="t_sh">Lorem ipsum dolor sit amet.</h3>
+
+
+    <hr>
+    <!-- show the result -->
+
+    <h2>click the button to show the result</h2>
+    <button type="button" class="btn btn-danger" onclick="showResult()">Show result</button>
+    <h3 id="result"></h3>
+
+
+    <hr>
+
+    <h2>click the button to show the amount</h2>
+    <button type="button" class="btn btn-success" onclick="showResult5()">show amount</button>
+    <h3 id="res_a"></h3>
+
+
+    <hr>
+
+   
+
+    <!-- class name -->
+
+    <h2>show the result uses of class name</h2>
+    <button type="button" class="btn btn-dark" onclick="cName()">out put</button>
+    <p class="p">hello</p>
+    <p class="p">hello</p>
+    <p class="p">hello</p>
+    <p class="p">hello</p>
+    <hr>
+
+    <!-- tag name -->
+
+    <h2>Tag Name</h2>
+    <button type="button" class="btn btn-dark" onclick="cName1()">out put</button>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+    <hr>
+    
+     <!-- font size -->
+
+    <h2>click the button to show the font size</h2>
+    <button type="button" class="btn btn-success" onclick="fontSize1()">click me</button>
+    <p id="font_s">Hello World</p>
+
+    
+
+    <hr>
+     
+    <!-- statement -->
+    <h2>click the button to show the statement</h2>
+     <button type="button" class="btn btn-success" onclick="changeStatement()">click me</button>
+    <h3 id="stat">Lorem ipsum dolor sit, amet.</h3>
+    
+
+    <hr>
+    <!-- display none -->
+    <h2>click the button to display none</h2>
+    <button type="button" class="btn btn-info" onclick="displayNone()">click</button>
+    <h3 id="d_n">Outhoy</h3>
+
+    <hr>
+    <!-- display block -->
+    <h2>click the button to display block</h2>
+    <button type="button" class="btn btn-primary" onclick="displayBlock()">click me</button>
+    <h3 id="d_block">Hello</h3>
+
+    <hr>
+    <!-- display result -->
+    <h2>click the button to display result</h2>
+    <button type="button" class="btn btn-dark" onclick="showResult2()">click me</button>
+    <h3 id="result6"></h3>
+
+    <hr>
+     
+    <!-- if statement -->
+    <h2>click the button to display if statement</h2>
+    <button type="button" class="btn btn-dark" onclick="getHourst()">click me</button>
+    <p>Display "Good day!" if the hour is less than 18:00:</p>
+    <p id="if_s">Good Evening!</p>
+    <hr>
+
+    <!-- Create a Map -->
+    <h2>Creating a Map from an Array</h2>
+    <button type="button" class="btn btn-dark" onclick="showMap()">click me</button>
+    <h3 id="map"></h3>
+    <hr>
+
+
+    
+    
+
+
+
+
+    </div>
+
+    
+
+   <!-- js link -->
+   <script src="js/jquery-3.7.1.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>
+
