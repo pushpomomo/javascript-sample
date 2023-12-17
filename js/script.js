@@ -22,13 +22,12 @@ function bulbOff(){
 }
 
 // imoji
-// function smileGif(){
-//        document.getElementById('imj')src="images/smile.gif";
-// }
-
-// function sadGif(){
-//        document.getElementById('imj')src="images/sad.gif";
-// }
+ function smileGif(){
+       document.getElementById("imoji").src="images/smile.gif";
+}
+ function sadGif() {
+       document.getElementById("imoji").src="images/sad.gif";
+}
 
 // text change
 function textChange2(){
